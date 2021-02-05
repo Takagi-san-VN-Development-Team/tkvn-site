@@ -19,6 +19,8 @@
             list-style-position: inside;
         }
 
+
+
         #for-staff-li {
             float: none;
             padding: 5px;
@@ -26,6 +28,27 @@
             padding-top: 5px;
             list-style-type: disc;
             font-weight: bold;
+        }
+
+        @media screen and (max-width: 800px) {
+            .container {
+                width: 300px;
+            }
+
+            #for-staff-li {
+                padding-left: 0px;
+
+            }
+
+            #for-staff-ul {
+                font-size: 10px;
+            }
+
+            h1,
+            h2 {
+                font-size: 15px;
+            }
+
         }
     </style>
 
@@ -39,7 +62,7 @@
         <span class="text_fade_in_content">
             <div class="container" style="max-height: 1000px;padding-right: 0;padding-top: 1px">
                 <div class="inner-content" style="max-height: 97%;overflow: auto;">
-                    <div id="scroll" style="height: 2500px;">
+                    <div id="scroll" style="height: 2300px;">
 
                         <h1 style="font-size: 35px;padding-top: 25px">Staff</h1>
                         <h2 style="padding-top: 10px; padding-left: 25px;">Project Lead:</h2>
